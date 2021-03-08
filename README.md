@@ -40,8 +40,42 @@ Try Hack Me is organized into rooms that might have many problems relating to a 
 
 [Link](https://tryhackme.com/room/vulnversity)
 
-1. 
-2. 
+1. Run `nmap -A -sC -p- -oN vul.nmap 10.10.IP ADDRESS HERE*` on the instance of Kali 
+
+2. Wait >10 minutes for it to resolve
+
+3. Scan for hidden files by doing `gobuster dir -u http://<ip>:3333 -w /usr/share/wordlists`
+
+4. Go to the \<ip>internal/index.html on firefox (**Make sure u aren't using http or https before the url**)
+
+5. Follow the rest of the steps till yo get to injecting the PHP code
+
+6. Make sure download the PHP file from GitHub, rename it to be a .phtml and change the IP to the TMP IP address
+
+   ![screen1](img/screen1.png)
+
+7. Save, upload, listen, then submit file
+
+8. Then the netcat should allow you in such that you can gain control and find out things about the machine
+
+9. Follow https://n0w4n.nl/vulnversity/#crayon-60458bd07482b875406373 to gain admin privileges
+
+10. Follow the rest of the instructions and you should be done! 🥳
+
+Resources: 
+
+* https://n0w4n.nl/vulnversity/
+* https://www.youtube.com/watch?v=hvYWCegfEZs&ab_channel=JohnHammond
+
+
+
+## OpenVPN
+
+1. Download OpenVPN and install it
+2. Download the configuration files from TryHackMe
+3. Load the config file onto OpenVPN
+4. Connect
+5. ssh into server
 
 
 
