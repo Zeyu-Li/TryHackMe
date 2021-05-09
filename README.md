@@ -61,7 +61,7 @@ Instead of using curl in the command line, using postman to send requests might 
 
 6. Make sure download the PHP file from GitHub, rename it to be a .phtml and change the IP to the TMP IP address
 
-   ![screen1](img/screen1.png)
+   ![screen1](./img/screen1.png)
 
 7. Save, upload, listen, then submit file
 
