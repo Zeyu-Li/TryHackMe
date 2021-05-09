@@ -1,5 +1,7 @@
 # Try Hack Me Solutions
 
+![badge](https://github.com/Zeyu-Li/TryHackMe/workflows/Convert%20Markdown%20to%20PDF/badge.svg)
+
 [tryhackme.com](https://tryhackme.com/) is a website containing cyber security problems/questions. 
 
 Try Hack Me is organized into rooms that might have many problems relating to a central theme. To attempt the problems, one needs to open a connection to AttackBox, a web-based connection to a Kali machine. Alternatively you can use OpenVPN. For free users there exists a time limit on using the machine, but people with subscriptions, it is unlimited max machine open is 3. 
@@ -95,6 +97,12 @@ Task 6 (some step in the middle) the question that starts with "Return to your w
 3. Load the config file onto OpenVPN
 4. Connect
 5. ssh into server
+
+
+
+## CI for PDF
+
+![badge](https://github.com/Zeyu-Li/TryHackMe/workflows/Convert%20Markdown%20to%20PDF/badge.svg)
 
 
 
