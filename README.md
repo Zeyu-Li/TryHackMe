@@ -24,7 +24,11 @@ Try Hack Me is organized into rooms that might have many problems relating to a 
 2. [Web Fundamentals](#webf)
 3. [Vulnversity](#vulnversity)
 4. [Burp Suite](#burp)
-5. [OpenVPN](#openvpn)
+5. [Linux Series (1-3)](#linux)
+   1. [Part 1](#l1)
+   2. [Part 2](#l2)
+   3. [Part 3](#l3)
+6. [OpenVPN](#openvpn)
 
 
 
@@ -94,6 +98,40 @@ Task 6 (some step in the middle) the question that starts with "Return to your w
 The URL to enter is the one at the top of the page in a red box (see below)
 
 ![urlBurp](img/urlBurp.png)
+
+
+
+<a name=linux></a>
+
+### [Linux Series](#)
+
+<a name=l1></a>
+
+#### 1. Part 1
+
+Simple and easy -> do it in any Linux distro except for **Task 9**, but that's just my friend *pinguftw* for the answer if you can't be bothered to run the binary :p
+
+<a name=l2></a>
+
+#### 2. Part 2
+
+\* Remember to start the machine (which is different from the attack box)
+
+
+
+This one has a lot of useful information and here are some that I did not know:
+
+* `;` operator is the same as `&&` but does not need to execute successfully
+
+  
+
+<a name=l3></a>
+
+#### 3. Part 3
+
+This part goes through some more tools and commands for us to go into. 
+
+Task 7 -> `find / -name shiba4 2>/dev/null` (idk what `2>/dev/null` does but it works)
 
 
 
