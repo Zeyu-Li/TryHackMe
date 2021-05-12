@@ -24,6 +24,7 @@ Try Hack Me is organized into rooms that might have many problems relating to a 
 2. [Web Fundamentals](#webf)
 3. [Vulnversity](#vulnversity)
 4. [Burp Suite](#burp)
+5. [OpenVPN](#openvpn)
 
 
 
@@ -86,9 +87,17 @@ Resources:
 
 Follow instructions, mostly straight forward
 
-Task 6 (some step in the middle) the question that starts with "Return to your web browser and navigate to the web application hosted on the VM we deployed just a bit ago", implies localhost:8080, but does not work, literally just do tryhackme.com for that one request
+Task 6 (some step in the middle) the question that starts with "Return to your web browser and navigate to the web application hosted on the VM we deployed just a bit ago", this web application is deployed/started in Task 6 (show below)
+
+![startBurp](img/startBurp.png)
+
+The URL to enter is the one at the top of the page in a red box (see below)
+
+![urlBurp](img/urlBurp.png)
 
 
+
+<a name=openvpn></a>
 
 ## OpenVPN
 
