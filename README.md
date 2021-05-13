@@ -28,7 +28,10 @@ Try Hack Me is organized into rooms that might have many problems relating to a 
    1. [Part 1](#l1)
    2. [Part 2](#l2)
    3. [Part 3](#l3)
-6. [OpenVPN](#openvpn)
+6. [Windows Intro](#introwindows)
+7. [How Websites Work](#introwebsite)
+8. [Introductory Networking](#inetwork)
+9. [OpenVPN](#openvpn)
 
 
 
@@ -132,6 +135,24 @@ This one has a lot of useful information and here are some that I did not know:
 This part goes through some more tools and commands for us to go into. 
 
 Task 7 -> `find / -name shiba4 2>/dev/null` (idk what `2>/dev/null` does but it works)
+
+
+
+<a name=introwindows></a>
+
+### [Windows Intro](https://tryhackme.com/room/intro2windows)
+
+A simple intro to the Windows operating system. This barely counts as a room, but it is what it is.
+
+
+
+<a name=introwebsite></a>
+
+### [How Websites Work](https://tryhackme.com/room/howwebsiteswork)
+
+Easy intro into web dev and how websites work
+
+<!--- <a name=inetwork></a> [Introductory Networking](https://tryhackme.com/room/introtonetworking) --->
 
 
 
