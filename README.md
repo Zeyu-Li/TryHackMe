@@ -31,7 +31,8 @@ Try Hack Me is organized into rooms that might have many problems relating to a 
 6. [Windows Intro](#introwindows)
 7. [How Websites Work](#introwebsite)
 8. [Introductory Networking](#inetwork)
-9. [OpenVPN](#openvpn)
+9. [Hashing - Crypto 101](#hash101)
+10. [OpenVPN](#openvpn)
 
 
 
@@ -159,6 +160,24 @@ Easy intro into web dev and how websites work
 ### [Introductory Networking](https://tryhackme.com/room/introtonetworking)
 
 Networking stuff (Mostly IT/network stuff)
+
+
+
+<a name=hash101></a> 
+
+### [Hashing - Crypto 101](https://tryhackme.com/room/hashingcrypto101)
+
+Intro cryptography
+
+Task 4, Last question -> check length with Python
+
+`len("HASH")`
+
+For Task 5, to crack, use
+
+`hashcat -m NUM hash rockyou.txt ` where hash is the txt file containing the hash  and change NUM to whatever the code for your hash type (found here: https://hashcat.net/wiki/doku.php?id=example_hashes). Also note that rockyou.txt was saved in the same directory level as the hash file
+
+\* Note this may take a while
 
 
 
