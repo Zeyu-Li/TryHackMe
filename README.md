@@ -152,7 +152,13 @@ A simple intro to the Windows operating system. This barely counts as a room, bu
 
 Easy intro into web dev and how websites work
 
-<!--- <a name=inetwork></a> [Introductory Networking](https://tryhackme.com/room/introtonetworking) --->
+
+
+<a name=inetwork></a> 
+
+### [Introductory Networking](https://tryhackme.com/room/introtonetworking)
+
+Networking stuff (Mostly IT/network stuff)
 
 
 
