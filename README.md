@@ -32,7 +32,8 @@ Try Hack Me is organized into rooms that might have many problems relating to a 
 7. [How Websites Work](#introwebsite)
 8. [Introductory Networking](#inetwork)
 9. [Hashing - Crypto 101](#hash101)
-10. [OpenVPN](#openvpn)
+10. [Intro Shells](#ishell)
+12. [OpenVPN](#openvpn)
 
 
 
@@ -178,6 +179,14 @@ For Task 5, to crack, use
 `hashcat -m NUM hash rockyou.txt ` where hash is the txt file containing the hash  and change NUM to whatever the code for your hash type (found here: https://hashcat.net/wiki/doku.php?id=example_hashes). Also note that rockyou.txt was saved in the same directory level as the hash file
 
 \* Note this may take a while
+
+
+
+<a name=ishell></a> 
+
+### [Intro Shell](https://tryhackme.com/room/introtoshells)
+
+You can do the questions in order, but a better idea is to go to the bottom (task 14/15), start those machines and test the other tests with the open machine while AttackBox is open
 
 
 
