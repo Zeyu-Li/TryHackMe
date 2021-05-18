@@ -33,6 +33,7 @@ Try Hack Me is organized into rooms that might have many problems relating to a 
 8. [Introductory Networking](#inetwork)
 9. [Hashing - Crypto 101](#hash101)
 10. [Intro Shells](#ishell)
+11. [Nmap](#nmap)
 12. [OpenVPN](#openvpn)
 
 
@@ -187,6 +188,20 @@ For Task 5, to crack, use
 ### [Intro Shell](https://tryhackme.com/room/introtoshells)
 
 You can do the questions in order, but a better idea is to go to the bottom (task 14/15), start those machines and test the other tests with the open machine while AttackBox is open
+
+
+
+<a name=nmap></a> 
+
+### [Nmap](https://tryhackme.com/room/furthernmap)
+
+Task 3 -> recommended to redirect output to text file like this
+
+`nmap -h > t.txt` then grep the output of the t.txt to find the answer like this
+
+`cat t.txt | grep -in -e 'FIND TEXT'`
+
+To get the answers most of the time and line number if you do not find it immediately
 
 
 
