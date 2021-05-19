@@ -36,7 +36,9 @@ Try Hack Me is organized into rooms that might have many problems relating to a 
 11. [Nmap](#nmap)
 12. [Active Directory Basics](#adb)
 13. [John the Ripper](#john)
-14. [OpenVPN](#openvpn)
+14. [Common Linux Privesc](#CLP)
+15. [Intro to Python](#python)
+16. [OpenVPN](#openvpn)
 
 
 
@@ -232,6 +234,42 @@ In Task 9-11, zip2john, rar2john, and ssh2john are not found so install it manua
 `password` for the rar (you also need unrar)
 
 `mango` for the ssh key
+
+
+
+<a name=CLP></a> 
+
+### [Common Linux Privesc](https://tryhackme.com/room/commonlinuxprivesc)
+
+This video series covers this room in great detail: https://www.youtube.com/watch?v=PjjuZwVvCgc
+
+
+
+<a name=python></a> 
+
+### [Intro to Python](https://tryhackme.com/room/introtopython)
+
+Trivial
+
+Do for last step (\* note txt is the text file containing the task file)
+
+```python
+import base64
+
+with open("txt", "r") as fp:
+    flag = f.read()
+
+for i in range(5):
+    flag = base64.b16decode(flag)
+
+for i in range(5):
+    flag = base64.b32decode(flag)
+
+for i in range(5):
+    flag = base64.b64decode(flag)
+
+print(flag)
+```
 
 
 
