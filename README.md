@@ -34,7 +34,9 @@ Try Hack Me is organized into rooms that might have many problems relating to a 
 9. [Hashing - Crypto 101](#hash101)
 10. [Intro Shells](#ishell)
 11. [Nmap](#nmap)
-12. [OpenVPN](#openvpn)
+12. [Active Directory Basics](#adb)
+13. [John the Ripper](#john)
+14. [OpenVPN](#openvpn)
 
 
 
@@ -202,6 +204,34 @@ Task 3 -> recommended to redirect output to text file like this
 `cat t.txt | grep -in -e 'FIND TEXT'`
 
 To get the answers most of the time and line number if you do not find it immediately
+
+
+
+<a name=adb></a> 
+
+### [Active Directory Basics](https://tryhackme.com/room/activedirectorybasics)
+
+Reading assignment :weary: 
+
+(Don't be afraid to use the hint for the second last part)
+
+
+
+<a name=john></a> 
+
+### [John The Ripper](https://tryhackme.com/room/johntheripper0)
+
+Use rockyou.com for test: [rockyou.txt wordlist](https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt)
+
+For cracking in task 4, use `john hashX.txt --wordlist=../rockyou.txt` if rockyou.txt is in the directory above yours
+
+In Task 9-11, zip2john, rar2john, and ssh2john are not found so install it manually or just enter 
+
+`pass123` as the passcode zip and
+
+`password` for the rar (you also need unrar)
+
+`mango` for the ssh key
 
 
 
