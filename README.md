@@ -38,7 +38,9 @@ Try Hack Me is organized into rooms that might have many problems relating to a 
 13. [John the Ripper](#john)
 14. [Common Linux Privesc](#CLP)
 15. [Intro to Python](#python)
-16. [OpenVPN](#openvpn)
+16. [OWASP Top 10](#owasp)
+17. [Basic Pentesting](#bp)
+18. [OpenVPN](#openvpn)
 
 
 
@@ -270,6 +272,47 @@ for i in range(5):
 
 print(flag)
 ```
+
+Then run with `python3 t.py` or whatever u named your python file
+
+
+
+<a name=owasp></a> 
+
+### [OWASP Top 10](https://tryhackme.com/room/owasptop10)
+
+Follow the steps till task 7, where the arthur task might be broken. Therefore the password is `d9ac0f7b4fda460ac3edeb75d75e16e`
+
+In severity 3, you go into SQL. Notes on SQLite3:
+
+* find the structure of the table with `.schema TABLE_NAME` in sqlite3
+
+SSH key is usually located at `/home/falcon/.ssh/id_ra`
+
+In take 16, it can be annoying to get the first 18 characters so use python by specifying 
+
+```python
+a = "KEY"
+print(a[:18])
+```
+
+Severity 6: MSINT
+
+Severity 7: Note that the alert must be case sensitive (ie `Hello`)
+
+Severity 8: Task 21 is a trick question since it's `the Apache Software Foundation` 🙄
+
+also note the first flag (cookie) requires a decoder
+
+
+
+<a name=bp></a> 
+
+### [Basic Pentesting](https://tryhackme.com/room/basicpentestingjt)
+
+Check The video (https://www.youtube.com/watch?v=xl2Xx5YOKcI)
+
+This room should be done near the end because it requires a bunch of other tools and it requires you know how to pentest starting from nothing
 
 
 
