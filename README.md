@@ -39,8 +39,11 @@ Try Hack Me is organized into rooms that might have many problems relating to a 
 14. [Common Linux Privesc](#CLP)
 15. [Intro to Python](#python)
 16. [OWASP Top 10](#owasp)
-17. [Basic Pentesting](#bp)
-18. [OpenVPN](#openvpn)
+17. [Kenobi](#Kenobi)
+18. [Encryption - Crypto 101](#encryption)
+19. [Basic Pentesting](#bp)
+20. [Network Services](#ns)
+21. [OpenVPN](#openvpn)
 
 
 
@@ -306,6 +309,22 @@ also note the first flag (cookie) requires a decoder
 
 
 
+<a name=Kenobi></a> 
+
+### [Kenobi](https://tryhackme.com/room/kenobi)
+
+Follow the steps are the rest is trivial
+
+
+
+<a name=encryption></a> 
+
+### [Encryption - Crypto 101](https://tryhackme.com/room/encryptioncrypto101)
+
+
+
+
+
 <a name=bp></a> 
 
 ### [Basic Pentesting](https://tryhackme.com/room/basicpentestingjt)
@@ -313,6 +332,14 @@ also note the first flag (cookie) requires a decoder
 Check The video (https://www.youtube.com/watch?v=xl2Xx5YOKcI)
 
 This room should be done near the end because it requires a bunch of other tools and it requires you know how to pentest starting from nothing
+
+
+
+<a name=ns></a> 
+
+### [Network Services](https://tryhackme.com/room/networkservices)
+
+see [YouTube 1](https://www.youtube.com/watch?v=eedTXtYiOK4), [YouTube 2](https://www.youtube.com/watch?v=qcvZ2Jm8fPU), or [YouTube 3](https://www.youtube.com/watch?v=18bHDxj1JpE) for hints
 
 
 
