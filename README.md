@@ -44,7 +44,8 @@ Try Hack Me is organized into rooms that might have many problems relating to a 
 19. [Linux PrivEsc](#linuxesc)
 20. [Basic Pentesting](#bp)
 21. [Network Services](#ns)
-22. [OpenVPN](#openvpn)
+22. [Metasploit](#Metasploit)
+23. [OpenVPN](#openvpn)
 
 
 
@@ -349,6 +350,14 @@ This room should be done near the end because it requires a bunch of other tools
 ### [Network Services](https://tryhackme.com/room/networkservices)
 
 see [YouTube 1](https://www.youtube.com/watch?v=eedTXtYiOK4), [YouTube 2](https://www.youtube.com/watch?v=qcvZ2Jm8fPU), or [YouTube 3](https://www.youtube.com/watch?v=18bHDxj1JpE) for hints
+
+
+
+<a name=Metasploit></a> 
+
+### [Metasploit](https://tryhackme.com/room/rpmetasploit)
+
+Follow the steps and/or watch the video (which contain the answers)
 
 
 
