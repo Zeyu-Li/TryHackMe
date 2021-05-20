@@ -41,9 +41,10 @@ Try Hack Me is organized into rooms that might have many problems relating to a 
 16. [OWASP Top 10](#owasp)
 17. [Kenobi](#Kenobi)
 18. [Encryption - Crypto 101](#encryption)
-19. [Basic Pentesting](#bp)
-20. [Network Services](#ns)
-21. [OpenVPN](#openvpn)
+19. [Linux PrivEsc](#linuxesc)
+20. [Basic Pentesting](#bp)
+21. [Network Services](#ns)
+22. [OpenVPN](#openvpn)
 
 
 
@@ -321,7 +322,15 @@ Follow the steps are the rest is trivial
 
 ### [Encryption - Crypto 101](https://tryhackme.com/room/encryptioncrypto101)
 
+Task 4 -> use python interrater
 
+
+
+<a name=linuxesc></a> 
+
+### [Linux PrivEsc](https://tryhackme.com/room/linuxprivesc)
+
+Good resource for escalation later on (definitely a good bookmark)
 
 
 
