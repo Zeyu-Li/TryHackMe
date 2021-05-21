@@ -44,8 +44,10 @@ Try Hack Me is organized into rooms that might have many problems relating to a 
 19. [Linux PrivEsc](#linuxesc)
 20. [Basic Pentesting](#bp)
 21. [Network Services](#ns)
-22. [Metasploit](#Metasploit)
-23. [OpenVPN](#openvpn)
+22. [Network Services 2](#ns2)
+23. [Metasploit](#Metasploit)
+24. [OhSINT](#OhSINT)
+25. [OpenVPN](#openvpn)
 
 
 
@@ -353,11 +355,35 @@ see [YouTube 1](https://www.youtube.com/watch?v=eedTXtYiOK4), [YouTube 2](https:
 
 
 
+<a name=ns2></a> 
+
+### [Network Services 2](https://tryhackme.com/room/networkservices2)
+
+`/usr/sbin/showmount` is just `showmount` (Task 3)
+
+Some parts maybe broken like the MySQL (also need to install MySQL)
+
+A very good writeup: http://wuvel.net/network-services-2/#:~:text=What%20process%20allows%20an%20NFS,Mounting.
+
+
+
 <a name=Metasploit></a> 
 
 ### [Metasploit](https://tryhackme.com/room/rpmetasploit)
 
 Follow the steps and/or watch the video (which contain the answers)
+
+
+
+<a name=OhSINT></a> 
+
+### [OhSINT](https://tryhackme.com/room/ohsint)
+
+MSINT fun. Do some googling and don't be afraid of using the hint
+
+For SSID of WAP, the website has changed the the answer is `UnileverWiFi`
+
+Last question requires you to look in the source code (under the header)
 
 
 
