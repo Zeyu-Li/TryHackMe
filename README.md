@@ -195,7 +195,7 @@ Google, SEO, and indexing!
 
 Notice for me:
 
-![notice](img/notice.png)
+![notice](./img/notice.png)
 
 
 
@@ -483,7 +483,7 @@ Yet another Mr. Robot room 😅
 
 In task 2 the name of the webserver starts with the word `rejetto`
 
-\* note the flag is in Desktop
+\*note the flag is in Desktop
 
 
 
