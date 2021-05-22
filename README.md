@@ -22,39 +22,39 @@ Try Hack Me is organized into rooms that might have many problems relating to a 
 
 1. [Tutorial](#begin)
 2. [Welcome](#welcome)
-3. [Web Fundamentals](#webf)
-4. [Burp Suite](#burp)
-5. [Linux Series (1-3)](#linux)
+3. [OpenVPN](#openvpn)
+4. [Web Fundamentals](#webf)
+5. [Intro to Python](#python)
+6. [Burp Suite](#burp)
+7. [Linux Series (1-3)](#linux)
    1. [Part 1](#l1)
    2. [Part 2](#l2)
    3. [Part 3](#l3)
-6. [Windows Intro](#introwindows)
-7. [Google Dorking](#googled)
-8. [How Websites Work](#introwebsite)
-9. [Introductory Networking](#inetwork)
-10. [Hashing - Crypto 101](#hash101)
-11. [Intro Shells](#ishell)
-12. [Nmap](#nmap)
-13. [Hydra](#hydra)
-14. [Active Directory Basics](#adb)
-15. [John the Ripper](#john)
-16. [Common Linux Privesc](#CLP)
-17. [Intro to Python](#python)
-18. [Metasploit](#Metasploit)
-19. [OWASP Top 10](#owasp)
-20. [Kenobi](#Kenobi)
-21. [Encryption - Crypto 101](#encryption)
-22. [Linux PrivEsc](#linuxesc)
-23. [Basic Pentesting](#bp)
-24. [Vulnversity](#vulnversity)
-25. [Network Services](#ns)
-26. [Network Services 2](#ns2)
-27. [OhSINT](#OhSINT)
-28. [Mr Robot CTF](#mrrobot)
-29. [Blue](#blue)
-30. [Ice](#ice)
-31. [Steel Mountain](#sm)
-32. [OpenVPN](#openvpn)
+8. [Windows Intro](#introwindows)
+9. [Google Dorking](#googled)
+10. [How Websites Work](#introwebsite)
+11. [Introductory Networking](#inetwork)
+12. [Hashing - Crypto 101](#hash101)
+13. [Intro Shells](#ishell)
+14. [Nmap](#nmap)
+15. [Hydra](#hydra)
+16. [Active Directory Basics](#adb)
+17. [John the Ripper](#john)
+18. [Common Linux Privesc](#CLP)
+19. [Metasploit](#Metasploit)
+20. [Encryption - Crypto 101](#encryption)
+21. [Linux PrivEsc](#linuxesc)
+22. [Vulnversity](#vulnversity)
+23. [Network Services](#ns)
+24. [Network Services 2](#ns2)
+25. [OhSINT](#OhSINT)
+26. [OWASP Top 10](#owasp)
+27. [Kenobi](#Kenobi)
+28. [Basic Pentesting](#bp)
+29. [Mr Robot CTF](#mrrobot)
+30. [Blue](#blue)
+31. [Ice](#ice)
+32. [Steel Mountain](#sm)
 
 
 
@@ -76,6 +76,18 @@ A nice intro to TryHackMe
 
 
 
+<a name=openvpn></a>
+
+### [OpenVPN](https://tryhackme.com/room/openvpn)
+
+1. Download OpenVPN and install it
+2. Download the configuration files from TryHackMe
+3. Load the config file onto OpenVPN
+4. Connect
+5. ssh into server
+
+
+
 <a name=webf></a>
 
 ### [Web Fundamentals](https://tryhackme.com/room/webfundamentals)
@@ -83,6 +95,36 @@ A nice intro to TryHackMe
 Good place to start out
 
 Instead of using curl in the command line, using postman to send requests might be easier
+
+
+
+<a name=python></a> 
+
+### [Intro to Python](https://tryhackme.com/room/introtopython)
+
+Trivial
+
+Do for last step (\* note txt is the text file containing the task file)
+
+```python
+import base64
+
+with open("txt", "r") as fp:
+    flag = f.read()
+
+for i in range(5):
+    flag = base64.b16decode(flag)
+
+for i in range(5):
+    flag = base64.b32decode(flag)
+
+for i in range(5):
+    flag = base64.b64decode(flag)
+
+print(flag)
+```
+
+Then run with `python3 t.py` or whatever u named your python file
 
 
 
@@ -108,13 +150,13 @@ The URL to enter is the one at the top of the page in a red box (see below)
 
 <a name=l1></a>
 
-#### 1. Part 1
+#### 1. [Part 1](#https://tryhackme.com/room/linux1)
 
 Simple and easy -> do it in any Linux distro except for **Task 9**, but that's just my friend *pinguftw* for the answer if you can't be bothered to run the binary :p
 
 <a name=l2></a>
 
-#### 2. Part 2
+#### 2. [Part 2](https://tryhackme.com/room/linux2)
 
 \* Remember to start the machine (which is different from the attack box)
 
@@ -128,7 +170,7 @@ This one has a lot of useful information and here are some that I did not know:
 
 <a name=l3></a>
 
-#### 3. Part 3
+#### 3. [Part 3](https://tryhackme.com/room/linux3)
 
 This part goes through some more tools and commands for us to go into. 
 
@@ -258,78 +300,11 @@ This video series covers this room in great detail: https://www.youtube.com/watc
 
 
 
-<a name=python></a> 
-
-### [Intro to Python](https://tryhackme.com/room/introtopython)
-
-Trivial
-
-Do for last step (\* note txt is the text file containing the task file)
-
-```python
-import base64
-
-with open("txt", "r") as fp:
-    flag = f.read()
-
-for i in range(5):
-    flag = base64.b16decode(flag)
-
-for i in range(5):
-    flag = base64.b32decode(flag)
-
-for i in range(5):
-    flag = base64.b64decode(flag)
-
-print(flag)
-```
-
-Then run with `python3 t.py` or whatever u named your python file
-
-
-
 <a name=Metasploit></a> 
 
 ### [Metasploit](https://tryhackme.com/room/rpmetasploit)
 
 Follow the steps and/or watch the video (which contain the answers)
-
-
-
-<a name=owasp></a> 
-
-### [OWASP Top 10](https://tryhackme.com/room/owasptop10)
-
-Follow the steps till task 7, where the arthur task might be broken. Therefore the password is `d9ac0f7b4fda460ac3edeb75d75e16e`
-
-In severity 3, you go into SQL. Notes on SQLite3:
-
-* find the structure of the table with `.schema TABLE_NAME` in sqlite3
-
-SSH key is usually located at `/home/falcon/.ssh/id_ra`
-
-In take 16, it can be annoying to get the first 18 characters so use python by specifying 
-
-```python
-a = "KEY"
-print(a[:18])
-```
-
-Severity 6: MSINT
-
-Severity 7: Note that the alert must be case sensitive (ie `Hello`)
-
-Severity 8: Task 21 is a trick question since it's `the Apache Software Foundation` 🙄
-
-also note the first flag (cookie) requires a decoder
-
-
-
-<a name=Kenobi></a> 
-
-### [Kenobi](https://tryhackme.com/room/kenobi)
-
-Follow the steps are the rest is trivial
 
 
 
@@ -346,16 +321,6 @@ Task 4 -> use python interrater
 ### [Linux PrivEsc](https://tryhackme.com/room/linuxprivesc)
 
 Good resource for escalation later on (definitely a good bookmark)
-
-
-
-<a name=bp></a> 
-
-### [Basic Pentesting](https://tryhackme.com/room/basicpentestingjt)
-
-Check The video (https://www.youtube.com/watch?v=xl2Xx5YOKcI)
-
-This room should be done near the end because it requires a bunch of other tools and it requires you know how to pentest starting from nothing
 
 
 
@@ -424,6 +389,53 @@ Last question requires you to look in the source code (under the header)
 
 
 
+<a name=owasp></a> 
+
+### [OWASP Top 10](https://tryhackme.com/room/owasptop10)
+
+Follow the steps till task 7, where the arthur task might be broken. Therefore the password is `d9ac0f7b4fda460ac3edeb75d75e16e`
+
+In severity 3, you go into SQL. Notes on SQLite3:
+
+* find the structure of the table with `.schema TABLE_NAME` in sqlite3
+
+SSH key is usually located at `/home/falcon/.ssh/id_ra`
+
+In take 16, it can be annoying to get the first 18 characters so use python by specifying 
+
+```python
+a = "KEY"
+print(a[:18])
+```
+
+Severity 6: MSINT
+
+Severity 7: Note that the alert must be case sensitive (ie `Hello`)
+
+Severity 8: Task 21 is a trick question since it's `the Apache Software Foundation` 🙄
+
+also note the first flag (cookie) requires a decoder
+
+
+
+<a name=Kenobi></a> 
+
+### [Kenobi](https://tryhackme.com/room/kenobi)
+
+Follow the steps are the rest is trivial
+
+
+
+<a name=bp></a> 
+
+### [Basic Pentesting](https://tryhackme.com/room/basicpentestingjt)
+
+Check The video (https://www.youtube.com/watch?v=xl2Xx5YOKcI)
+
+This room should be done near the end because it requires a bunch of other tools and it requires you know how to pentest starting from nothing
+
+
+
 <a name=mrrobot></a> 
 
 ### [Mr Robot CTF](https://tryhackme.com/room/mrrobot)
@@ -467,18 +479,6 @@ Here I will break down the steps for general cracking:
 ### [Steel Mountain](https://tryhackme.com/room/steelmountain)
 
 Yet another Mr. Robot room 😅
-
-
-
-<a name=openvpn></a>
-
-## OpenVPN
-
-1. Download OpenVPN and install it
-2. Download the configuration files from TryHackMe
-3. Load the config file onto OpenVPN
-4. Connect
-5. ssh into server
 
 
 
