@@ -55,6 +55,7 @@ Try Hack Me is organized into rooms that might have many problems relating to a 
 30. [Blue](#blue)
 31. [Ice](#ice)
 32. [Steel Mountain](#sm)
+33. [Nessus](#Nessus)
 
 
 
@@ -479,6 +480,20 @@ Here I will break down the steps for general cracking:
 ### [Steel Mountain](https://tryhackme.com/room/steelmountain)
 
 Yet another Mr. Robot room 😅
+
+In task 2 the name of the webserver starts with the word `rejetto`
+
+\* note the flag is in Desktop
+
+
+
+<a name=Nessus></a> 
+
+### [Nessus](https://tryhackme.com/room/rpnessusredux)
+
+Unless you have 30GB of space or don't want to waste 30GB, don't do this room! 
+
+If me want the badge (🥺👉👈), follow this tutorial: https://www.youtube.com/watch?v=JMyuEiz1dWQ
 
 
 
