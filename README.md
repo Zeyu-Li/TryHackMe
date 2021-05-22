@@ -47,7 +47,10 @@ Try Hack Me is organized into rooms that might have many problems relating to a 
 22. [Network Services 2](#ns2)
 23. [Metasploit](#Metasploit)
 24. [OhSINT](#OhSINT)
-25. [OpenVPN](#openvpn)
+25. [Mr Robot CTF](#mrrobot)
+26. [Blue](#blue)
+27. [Ice](#ice)
+28. [OpenVPN](#openvpn)
 
 
 
@@ -384,6 +387,44 @@ MSINT fun. Do some googling and don't be afraid of using the hint
 For SSID of WAP, the website has changed the the answer is `UnileverWiFi`
 
 Last question requires you to look in the source code (under the header)
+
+
+
+<a name=mrrobot></a> 
+
+### [Mr Robot CTF](https://tryhackme.com/room/mrrobot)
+
+This is similar to [Blue](#blue), or at least the steps are the same, just some praxis
+
+
+
+<a name=blue></a> 
+
+### [Blue](https://tryhackme.com/room/blue)
+
+The behaviour of msfconsole may very on your machine and therefore you may have to background once you do `run`.  Sometimes the run will fail and you may need to restart the machine 
+
+(This room is a bit finicky)
+
+
+
+<a name=ice></a> 
+
+### [Ice](https://tryhackme.com/room/ice)
+
+1561 is the one we want in task 3
+
+Here I will break down the steps for general cracking:
+
+1. Scan and recon
+2. Hopefully find an exploit
+3. Use metasploit (msfconsole)
+   1. search for the exploit found
+   2. set to use the exploit (with `use NUMBER`)
+   3. set the host/port
+   4. run (the exploit at the host)
+4. Pray that you are successful
+5.  Escalate 
 
 
 
