@@ -21,36 +21,40 @@ Try Hack Me is organized into rooms that might have many problems relating to a 
 ## Index
 
 1. [Tutorial](#begin)
-2. [Web Fundamentals](#webf)
-3. [Vulnversity](#vulnversity)
+2. [Welcome](#welcome)
+3. [Web Fundamentals](#webf)
 4. [Burp Suite](#burp)
 5. [Linux Series (1-3)](#linux)
    1. [Part 1](#l1)
    2. [Part 2](#l2)
    3. [Part 3](#l3)
 6. [Windows Intro](#introwindows)
-7. [How Websites Work](#introwebsite)
-8. [Introductory Networking](#inetwork)
-9. [Hashing - Crypto 101](#hash101)
-10. [Intro Shells](#ishell)
-11. [Nmap](#nmap)
-12. [Active Directory Basics](#adb)
-13. [John the Ripper](#john)
-14. [Common Linux Privesc](#CLP)
-15. [Intro to Python](#python)
-16. [OWASP Top 10](#owasp)
-17. [Kenobi](#Kenobi)
-18. [Encryption - Crypto 101](#encryption)
-19. [Linux PrivEsc](#linuxesc)
-20. [Basic Pentesting](#bp)
-21. [Network Services](#ns)
-22. [Network Services 2](#ns2)
-23. [Metasploit](#Metasploit)
-24. [OhSINT](#OhSINT)
-25. [Mr Robot CTF](#mrrobot)
-26. [Blue](#blue)
-27. [Ice](#ice)
-28. [OpenVPN](#openvpn)
+7. [Google Dorking](#googled)
+8. [How Websites Work](#introwebsite)
+9. [Introductory Networking](#inetwork)
+10. [Hashing - Crypto 101](#hash101)
+11. [Intro Shells](#ishell)
+12. [Nmap](#nmap)
+13. [Hydra](#hydra)
+14. [Active Directory Basics](#adb)
+15. [John the Ripper](#john)
+16. [Common Linux Privesc](#CLP)
+17. [Intro to Python](#python)
+18. [Metasploit](#Metasploit)
+19. [OWASP Top 10](#owasp)
+20. [Kenobi](#Kenobi)
+21. [Encryption - Crypto 101](#encryption)
+22. [Linux PrivEsc](#linuxesc)
+23. [Basic Pentesting](#bp)
+24. [Vulnversity](#vulnversity)
+25. [Network Services](#ns)
+26. [Network Services 2](#ns2)
+27. [OhSINT](#OhSINT)
+28. [Mr Robot CTF](#mrrobot)
+29. [Blue](#blue)
+30. [Ice](#ice)
+31. [Steel Mountain](#sm)
+32. [OpenVPN](#openvpn)
 
 
 
@@ -64,6 +68,14 @@ Try Hack Me is organized into rooms that might have many problems relating to a 
 
 
 
+<a name=welcome></a>
+
+### [Welcome](https://tryhackme.com/room/hello)
+
+A nice intro to TryHackMe
+
+
+
 <a name=webf></a>
 
 ### [Web Fundamentals](https://tryhackme.com/room/webfundamentals)
@@ -71,39 +83,6 @@ Try Hack Me is organized into rooms that might have many problems relating to a 
 Good place to start out
 
 Instead of using curl in the command line, using postman to send requests might be easier
-
-
-
-<a name=vulnversity></a>
-
-### [Vulnversity](https://tryhackme.com/room/vulnversity)
-
-1. Run `nmap -A -sC -p- -oN vul.nmap 10.10.IP ADDRESS HERE*` on the instance of Kali 
-
-2. Wait >10 minutes for it to resolve
-
-3. Scan for hidden files by doing `gobuster dir -u http://<ip>:3333 -w /usr/share/wordlists`
-
-4. Go to the \<ip>/internal/index.html on firefox (**Make sure u aren't using http or https before the url**)
-
-5. Follow the rest of the steps till yo get to injecting the PHP code
-
-6. Make sure download the PHP file from GitHub, rename it to be a .phtml and change the IP to the TMP IP address
-
-   ![screen1](./img/screen1.png)
-
-7. Save, upload, listen, then submit file
-
-8. Then the netcat should allow you in such that you can gain control and find out things about the machine
-
-9. Follow https://n0w4n.nl/vulnversity/#crayon-60458bd07482b875406373 to gain admin privileges
-
-10. Follow the rest of the instructions and you should be done! 🥳
-
-Resources: 
-
-* https://n0w4n.nl/vulnversity/
-* https://www.youtube.com/watch?v=hvYWCegfEZs&ab_channel=JohnHammond
 
 
 
@@ -165,6 +144,18 @@ A simple intro to the Windows operating system. This barely counts as a room, bu
 
 
 
+<a name=googled></a>
+
+### [Google Dorking](https://tryhackme.com/room/googledorking)
+
+Google, SEO, and indexing!
+
+Notice for me:
+
+![notice](img/notice.png)
+
+
+
 <a name=introwebsite></a>
 
 ### [How Websites Work](https://tryhackme.com/room/howwebsiteswork)
@@ -218,6 +209,16 @@ Task 3 -> recommended to redirect output to text file like this
 `cat t.txt | grep -in -e 'FIND TEXT'`
 
 To get the answers most of the time and line number if you do not find it immediately
+
+
+
+<a name=hydra></a> 
+
+### [Hydra](https://tryhackme.com/room/hydra)
+
+Nice and simple intro to Hydra (you can use Burp for intercept)
+
+\* note the usual word list rock you and it is found in `/usr/share/wordlists/rockyou.txt ` on the attack box by default
 
 
 
@@ -287,6 +288,14 @@ Then run with `python3 t.py` or whatever u named your python file
 
 
 
+<a name=Metasploit></a> 
+
+### [Metasploit](https://tryhackme.com/room/rpmetasploit)
+
+Follow the steps and/or watch the video (which contain the answers)
+
+
+
 <a name=owasp></a> 
 
 ### [OWASP Top 10](https://tryhackme.com/room/owasptop10)
@@ -350,6 +359,39 @@ This room should be done near the end because it requires a bunch of other tools
 
 
 
+<a name=vulnversity></a>
+
+### [Vulnversity](https://tryhackme.com/room/vulnversity)
+
+1. Run `nmap -A -sC -p- -oN vul.nmap 10.10.IP ADDRESS HERE*` on the instance of Kali 
+
+2. Wait >10 minutes for it to resolve
+
+3. Scan for hidden files by doing `gobuster dir -u http://<ip>:3333 -w /usr/share/wordlists`
+
+4. Go to the \<ip>/internal/index.html on firefox (**Make sure u aren't using http or https before the url**)
+
+5. Follow the rest of the steps till yo get to injecting the PHP code
+
+6. Make sure download the PHP file from GitHub, rename it to be a .phtml and change the IP to the TMP IP address
+
+   ![screen1](./img/screen1.png)
+
+7. Save, upload, listen, then submit file
+
+8. Then the netcat should allow you in such that you can gain control and find out things about the machine
+
+9. Follow https://n0w4n.nl/vulnversity/#crayon-60458bd07482b875406373 to gain admin privileges
+
+10. Follow the rest of the instructions and you should be done! 🥳
+
+Resources: 
+
+* https://n0w4n.nl/vulnversity/
+* https://www.youtube.com/watch?v=hvYWCegfEZs&ab_channel=JohnHammond
+
+
+
 <a name=ns></a> 
 
 ### [Network Services](https://tryhackme.com/room/networkservices)
@@ -367,14 +409,6 @@ see [YouTube 1](https://www.youtube.com/watch?v=eedTXtYiOK4), [YouTube 2](https:
 Some parts maybe broken like the MySQL (also need to install MySQL)
 
 A very good writeup: http://wuvel.net/network-services-2/#:~:text=What%20process%20allows%20an%20NFS,Mounting.
-
-
-
-<a name=Metasploit></a> 
-
-### [Metasploit](https://tryhackme.com/room/rpmetasploit)
-
-Follow the steps and/or watch the video (which contain the answers)
 
 
 
@@ -425,6 +459,14 @@ Here I will break down the steps for general cracking:
    4. run (the exploit at the host)
 4. Pray that you are successful
 5.  Escalate 
+
+
+
+<a name=sm></a> 
+
+### [Steel Mountain](https://tryhackme.com/room/steelmountain)
+
+Yet another Mr. Robot room 😅
 
 
 
