@@ -39,28 +39,31 @@ Try Hack Me is organized into rooms that might have many problems relating to a 
 14. [Intro Shells](#ishell)
 15. [Nmap](#nmap)
 16. [Hydra](#hydra)
-17. [Active Directory Basics](#adb)
-18. [John the Ripper](#john)
-19. [Common Linux Privesc](#CLP)
-20. [Metasploit](#Metasploit)
-21. [Encryption - Crypto 101](#encryption)
-22. [Linux PrivEsc](#linuxesc)
-23. [Vulnversity](#vulnversity)
-24. [Network Services](#ns)
-25. [Network Services 2](#ns2)
-26. [OhSINT](#OhSINT)
-27. [OWASP Top 10](#owasp)
-28. [OWASP Juice Shop](#owaspjs)
-29. [Upload Vulnerabilities](#upload)
-30. [Kenobi](#Kenobi)
-31. [Basic Pentesting](#bp)
-32. [Mr Robot CTF](#mrrobot)
-33. [Blue](#blue)
-34. [Ice](#ice)
-35. [Steel Mountain](#sm)
-36. [Nessus](#Nessus)
-37. [Pickle Rick](#pickle)
-38. [Wireshark 101](#wireshark)
+17. [HTTP in detail](#http)
+18. [Putting it all together](#putting)
+19. [Active Directory Basics](#adb)
+20. [John the Ripper](#john)
+21. [Common Linux Privesc](#CLP)
+22. [Metasploit](#Metasploit)
+23. [Encryption - Crypto 101](#encryption)
+24. [Linux PrivEsc](#linuxesc)
+25. [DNS in Detail](#dns)
+26. [Vulnversity](#vulnversity)
+27. [Network Services](#ns)
+28. [Network Services 2](#ns2)
+29. [OhSINT](#OhSINT)
+30. [OWASP Top 10](#owasp)
+31. [OWASP Juice Shop](#owaspjs)
+32. [Upload Vulnerabilities](#upload)
+33. [Kenobi](#Kenobi)
+34. [Basic Pentesting](#bp)
+35. [Mr Robot CTF](#mrrobot)
+36. [Blue](#blue)
+37. [Ice](#ice)
+38. [Steel Mountain](#sm)
+39. [Nessus](#Nessus)
+40. [Pickle Rick](#pickle)
+41. [Wireshark 101](#wireshark)
 
 
 
@@ -278,6 +281,22 @@ Nice and simple intro to Hydra (you can use Burp for intercept)
 
 
 
+<a name=http></a> 
+
+### [HTTP in detail](https://tryhackme.com/room/httpindetail)
+
+Some simple questions to get you to know HTTP and the web
+
+
+
+<a name=putting></a> 
+
+### [Putting it all together](https://tryhackme.com/room/puttingitalltogether)
+
+Now with the other modules completed, put it all together and finish the quiz, good luck!
+
+
+
 <a name=adb></a> 
 
 ### [Active Directory Basics](https://tryhackme.com/room/activedirectorybasics)
@@ -335,6 +354,14 @@ Task 4 -> use python interrater
 ### [Linux PrivEsc](https://tryhackme.com/room/linuxprivesc)
 
 Good resource for escalation later on (definitely a good bookmark)
+
+
+
+<a name=dns></a> 
+
+### [DNS in Detail](https://tryhackme.com/room/dnsindetail)
+
+Find out what a DNS is
 
 
 
