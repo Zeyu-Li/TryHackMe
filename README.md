@@ -60,6 +60,7 @@ Try Hack Me is organized into rooms that might have many problems relating to a 
 35. [Steel Mountain](#sm)
 36. [Nessus](#Nessus)
 37. [Pickle Rick](#pickle)
+38. [Wireshark 101](#wireshark)
 
 
 
@@ -443,7 +444,7 @@ Note the best1050 wordlist from task 4 exists in `/usr/share/wordlists/SecLists/
 
 ### [Upload Vulnerabilities](https://tryhackme.com/room/uploadvulns)
 
-
+Make sure you follow tasks 1 otherwise, the website will not work. In addition, when entering the website via firefox, if it is not showing the website and redirecting to Google, please do `overwrite.uploadvulns.thm/` (with the slash). Follow the steps and have fun with the challenge!
 
 
 
@@ -531,7 +532,26 @@ If me want the badge (🥺👉👈), follow this tutorial: https://www.youtube.c
 
 I turned myself into a CTF room Morty... 
 
-Follow the video but at this point, you should know your way around
+Follow the video but at this point, you should know your way around by now
+
+
+
+<a name=wireshark></a> 
+
+### [Wireshark 101](https://tryhackme.com/room/wireshark)
+
+Wireshark on the Attack machines can be opened with the `wireshark` command
+
+In task 8, the last question requires it without the colon so use python to remove them
+
+```python
+a = 'STRING HERE'
+b = ''
+for char in a:
+    if char != ':':
+	    b += char
+print(b)
+```
 
 
 
