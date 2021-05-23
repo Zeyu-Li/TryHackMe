@@ -21,41 +21,45 @@ Try Hack Me is organized into rooms that might have many problems relating to a 
 ## Index
 
 1. [Tutorial](#begin)
-2. [Welcome](#welcome)
-3. [OpenVPN](#openvpn)
-4. [Web Fundamentals](#webf)
-5. [Intro to Python](#python)
-6. [Burp Suite](#burp)
-7. [Linux Series (1-3)](#linux)
+2. [How to use TryHackMe](htuthm)
+3. [Welcome](#welcome)
+4. [OpenVPN](#openvpn)
+5. [Web Fundamentals](#webf)
+6. [Intro to Python](#python)
+7. [Burp Suite](#burp)
+8. [Linux Series (1-3)](#linux)
    1. [Part 1](#l1)
    2. [Part 2](#l2)
    3. [Part 3](#l3)
-8. [Windows Intro](#introwindows)
-9. [Google Dorking](#googled)
-10. [How Websites Work](#introwebsite)
-11. [Introductory Networking](#inetwork)
-12. [Hashing - Crypto 101](#hash101)
-13. [Intro Shells](#ishell)
-14. [Nmap](#nmap)
-15. [Hydra](#hydra)
-16. [Active Directory Basics](#adb)
-17. [John the Ripper](#john)
-18. [Common Linux Privesc](#CLP)
-19. [Metasploit](#Metasploit)
-20. [Encryption - Crypto 101](#encryption)
-21. [Linux PrivEsc](#linuxesc)
-22. [Vulnversity](#vulnversity)
-23. [Network Services](#ns)
-24. [Network Services 2](#ns2)
-25. [OhSINT](#OhSINT)
-26. [OWASP Top 10](#owasp)
-27. [Kenobi](#Kenobi)
-28. [Basic Pentesting](#bp)
-29. [Mr Robot CTF](#mrrobot)
-30. [Blue](#blue)
-31. [Ice](#ice)
-32. [Steel Mountain](#sm)
-33. [Nessus](#Nessus)
+9. [Windows Intro](#introwindows)
+10. [Google Dorking](#googled)
+11. [How Websites Work](#introwebsite)
+12. [Introductory Networking](#inetwork)
+13. [Hashing - Crypto 101](#hash101)
+14. [Intro Shells](#ishell)
+15. [Nmap](#nmap)
+16. [Hydra](#hydra)
+17. [Active Directory Basics](#adb)
+18. [John the Ripper](#john)
+19. [Common Linux Privesc](#CLP)
+20. [Metasploit](#Metasploit)
+21. [Encryption - Crypto 101](#encryption)
+22. [Linux PrivEsc](#linuxesc)
+23. [Vulnversity](#vulnversity)
+24. [Network Services](#ns)
+25. [Network Services 2](#ns2)
+26. [OhSINT](#OhSINT)
+27. [OWASP Top 10](#owasp)
+28. [OWASP Juice Shop](#owaspjs)
+29. [Upload Vulnerabilities](#upload)
+30. [Kenobi](#Kenobi)
+31. [Basic Pentesting](#bp)
+32. [Mr Robot CTF](#mrrobot)
+33. [Blue](#blue)
+34. [Ice](#ice)
+35. [Steel Mountain](#sm)
+36. [Nessus](#Nessus)
+37. [Pickle Rick](#pickle)
 
 
 
@@ -66,6 +70,14 @@ Try Hack Me is organized into rooms that might have many problems relating to a 
 1. Start a machine, this will take ~ 1-2 minutes for pro accounts
 2. (Recommended) have two windows if 2+ monitors, 1 for Kali Linux window and another for the instructions
 3. Follow instructions to get the flag and submit it
+
+
+
+<a name=htuthm></a>
+
+### [How to use TryHackMe](https://tryhackme.com/room/tutorial)
+
+Similar to Tutorial (above), however you don't need to do `Start AttackBox`
 
 
 
@@ -419,6 +431,22 @@ also note the first flag (cookie) requires a decoder
 
 
 
+<a name=owaspjs></a> 
+
+### [OWASP Juice Shop](https://tryhackme.com/room/owaspjuiceshop)
+
+Note the best1050 wordlist from task 4 exists in `/usr/share/wordlists/SecLists/Passwords/Common-Credentials` (also that question takes a long time because burp wants you to buy premium) 
+
+
+
+<a name=upload></a> 
+
+### [Upload Vulnerabilities](https://tryhackme.com/room/uploadvulns)
+
+
+
+
+
 <a name=Kenobi></a> 
 
 ### [Kenobi](https://tryhackme.com/room/kenobi)
@@ -494,6 +522,16 @@ In task 2 the name of the webserver starts with the word `rejetto`
 Unless you have 30GB of space or don't want to waste 30GB, don't do this room! 
 
 If me want the badge (🥺👉👈), follow this tutorial: https://www.youtube.com/watch?v=JMyuEiz1dWQ
+
+
+
+<a name=pickle></a> 
+
+### [Pickle Rick](https://tryhackme.com/room/picklerick)
+
+I turned myself into a CTF room Morty... 
+
+Follow the video but at this point, you should know your way around
 
 
 
