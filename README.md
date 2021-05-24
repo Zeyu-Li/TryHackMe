@@ -64,6 +64,7 @@ Try Hack Me is organized into rooms that might have many problems relating to a 
 39. [Nessus](#Nessus)
 40. [Pickle Rick](#pickle)
 41. [Wireshark 101](#wireshark)
+42. [Attacktive Directory](#attacktive)
 
 
 
@@ -581,6 +582,12 @@ print(b)
 ```
 
 
+
+<a name=attacktive></a> 
+
+### [Attacktive Directory](https://tryhackme.com/room/attacktivedirectory)
+
+Programs should be installed by default on attack machines. 
 
 ## CI for PDF
 
