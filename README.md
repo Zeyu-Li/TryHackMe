@@ -65,6 +65,9 @@ Try Hack Me is organized into rooms that might have many problems relating to a 
 40. [Pickle Rick](#pickle)
 41. [Wireshark 101](#wireshark)
 42. [Attacktive Directory](#attacktive)
+43. [Post-Exploitation Basics](#peb)
+44. [Attacking Kerberos](#attackk)
+45. [Introduction to Django](#django)
 
 
 
@@ -589,9 +592,41 @@ print(b)
 
 Programs should be installed by default on attack machines. 
 
+
+
+<a name=peb></a> 
+
+### [Post-Exploitation Basics](https://tryhackme.com/room/postexploit)
+
+What do you do after you exploit the system? Well this room will let you find out how persistently stay on the system! 
+
+
+
+<a name=attackk></a> 
+
+### [Attacking Kerberos](https://tryhackme.com/room/attackingkerberos)
+
+
+
+<a name=django></a> 
+
+### [Introduction to Django](https://tryhackme.com/room/django)
+
+A nice intro to starting Django (Python web framework) development
+
+For user flag, hint is look in `/home` after ssh
+
+
+
 ## CI for PDF
 
 ![badge](https://github.com/Zeyu-Li/TryHackMe/workflows/Convert%20Markdown%20to%20PDF/badge.svg)
+
+
+
+## Thanks 💖
+
+Thanks for taking time to look at these hints for TryHackMe. I hope this helped and by the end you would have reached Hacker rank and ~13,000 rank/500,000 users
 
 
 
