@@ -606,6 +606,8 @@ What do you do after you exploit the system? Well this room will let you find ou
 
 ### [Attacking Kerberos](https://tryhackme.com/room/attackingkerberos)
 
+Kerberos must be installed in the Attack machines because dogs go waff waff hehe.
+
 
 
 <a name=django></a> 
