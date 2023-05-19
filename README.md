@@ -11,7 +11,7 @@ Try Hack Me is organized into rooms that might have many problems relating to a 
 ## Path
 
 1. Start with the tutorial which will help you set up
-2. Next do an easy challenges such as [Vulnversity](https://tryhackme.com/room/vulnversity) although this one is a bit long ans something like [Web Fundamentals](https://tryhackme.com/room/webfundamentals) might be easier 
+2. Next do an easy challenges such as [Vulnversity](https://tryhackme.com/room/vulnversity) although this one is a bit long and something like [Web Fundamentals](https://tryhackme.com/room/webfundamentals) might be easier 
 3. Do some more easy/tutorial ones to get your feet wet
 
 
@@ -145,7 +145,7 @@ for i in range(5):
 print(flag)
 ```
 
-Then run with `python3 t.py` or whatever u named your python file
+Then run with `python3 t.py` or whatever you named your python file
 
 
 
@@ -509,7 +509,7 @@ This is similar to [Blue](#blue), or at least the steps are the same, just some 
 
 ### [Blue](https://tryhackme.com/room/blue)
 
-The behaviour of msfconsole may very on your machine and therefore you may have to background once you do `run`.  Sometimes the run will fail and you may need to restart the machine 
+The behaviour of msfconsole may vary on your machine and therefore you may have to background once you do `run`.  Sometimes the run will fail and you may need to restart the machine 
 
 (This room is a bit finicky)
 
